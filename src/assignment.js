@@ -20,9 +20,8 @@ function sumOfNumbers(arrayOfNumbers) {
     for (let i = 0; i < arrayOfNumbers.length; i++) {
       sum += arrayOfNumbers[i]
     }
-    console.log(sum)
+  
     return sum
-    // return arrayOfNumbers.length;
 }
 
 sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
@@ -36,16 +35,16 @@ sumOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function countEvenNumbers(arrayOfNumbersEven) {
+function countEvenNumbers(arrayOfNumbers) {
   
     const evenNumber = [];
 
-  arrayOfNumbersEven.forEach(number => {
+  arrayOfNumbers.forEach(number => {
     if (number % 2 === 0) {
       evenNumber.push(number)
     }
   })
-    console.log(evenNumber)
+  
     return evenNumber
     // return arrayOfNumbers.length;
 }
